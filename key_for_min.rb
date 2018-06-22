@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash[:compare] = Float::INFINITY
-  the_value = nil
+  # the_value = nil
   name_hash.collect do |key, value|
     if name_hash[:compare] < name_hash[key]
       
