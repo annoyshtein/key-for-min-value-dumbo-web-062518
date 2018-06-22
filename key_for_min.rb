@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
     if name_hash[key] < lowest_found_value 
       puts name_hash[key].to_s + " is lower than " + lowest_found_value.to_s
       lowest_found_value = name_hash[key]
+      puts name_hash[key].to_s + " is the new lowest found value."
     end
   end
   #puts the_value
