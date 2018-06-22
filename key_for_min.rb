@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  name_hash[:compare] = Float::INFINITY
+  lowest_found_value = Float::INFINITY
   # the_value = nil
   name_hash.collect do |key, value|
     if name_hash[:compare] < name_hash[key]
