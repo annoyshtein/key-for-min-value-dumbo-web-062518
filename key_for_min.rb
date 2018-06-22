@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
   the_value = nil
   name_hash.collect do |key, value|
     # name_nash[:compare] < name_hash[key]
+    puts name_hash[key]
   end
   #puts the_value
   puts name_hash
