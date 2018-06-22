@@ -9,9 +9,9 @@ def key_for_min_value(name_hash)
       lowest_found_value = name_hash[key]
       lowest_found_key = key
     end
-    puts lowest_found_key
-    # lowest_found_key
   end
+      puts lowest_found_key
+    # lowest_found_key
 end
 
 ikea = {:blake => 500, :ashley => 2, :adam => 1}
