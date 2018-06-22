@@ -8,8 +8,8 @@ def key_for_min_value(name_hash)
     if name_hash[key] < lowest_found_value 
       lowest_found_value = name_hash[key]
       lowest_found_key = key
-      # puts lowest_found_key
-      return lowest_found_key
+      puts lowest_found_key
+      # return lowest_found_key
     end
   end
 end
