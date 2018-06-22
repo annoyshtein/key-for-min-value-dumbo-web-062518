@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  name_hash[:compare] = 1/0
+  name_hash[:compare] = Max
   name_hash.collect do |key, value|
     puts name_hash[:compare]
     puts name_hash[key]
