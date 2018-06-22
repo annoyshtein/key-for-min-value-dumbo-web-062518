@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   PositiveInfinity = +1.0/0.0
-  name_hash[:compare] = Math.Infinity
+  name_hash[:compare] = PositiveInfinity
   name_hash.collect do |key, value|
     puts name_hash[:compare]
     puts name_hash[key]
