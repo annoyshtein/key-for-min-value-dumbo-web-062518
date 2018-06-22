@@ -7,9 +7,9 @@ def key_for_min_value(name_hash)
   name_hash.collect do |key, value|
     if name_hash[value] < lowest_found_value 
       puts .to_s
-      puts name_hash[value].to_s + " is lower than " + lowest_found_value.to_s
+      puts name_hash[key].to_s + " is lower than " + lowest_found_value.to_s
       lowest_found_value = name_hash[value]
-      puts name_hash[value].to_s + " is the new lowest found value. The corresponding key is " + name_hash[key].to_s
+      puts name_hash[key].to_s + " is the new lowest found value. The corresponding key is " + name_hash[key].to_s
     end
   end
   #puts the_value
