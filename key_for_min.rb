@@ -3,9 +3,9 @@
 
 def key_for_min_value(name_hash)
   name_hash[:compare] = 0
-  #name_hash.collect do |key, value|
+  name_hash.collect do |key, value|
     
-  #end
+  end
   #puts the_value
   puts name_hash
 end
