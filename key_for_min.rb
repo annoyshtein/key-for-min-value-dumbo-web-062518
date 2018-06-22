@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   name_hash[:compare] = Float::INFINITY
   the_value = nil
   name_hash.collect do |key, value|
-    name_nash[:compare] < name_hash[key]
+    # name_nash[:compare] < name_hash[key]
   end
   #puts the_value
   puts name_hash
