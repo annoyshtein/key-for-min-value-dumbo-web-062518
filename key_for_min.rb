@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   # the_value = nil
   name_hash.collect do |key, value|
     if lowest_found_value < name_hash[key]
-      
+      puts name_hash[key].to_s + " is lower than " + lowest_found_value.to_s
     end
   end
   #puts the_value
