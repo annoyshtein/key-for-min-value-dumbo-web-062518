@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect do |key, value|
-    puts key.to_s + " " + value
+    puts key.to_s + " " + value.to_s
   end
 end
 
